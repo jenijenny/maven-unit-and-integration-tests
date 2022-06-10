@@ -6,7 +6,7 @@
 
   <groupId>com.example</groupId>
   <artifactId>maven-unit-and-integration-tests</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.${v}-SNAPSHOT</version>
 
   <name>maven-unit-and-integration-tests</name>
   <!-- FIXME change it to the project's website -->
@@ -134,4 +134,16 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>a0jbmzqtghlqr-artifactory-primary-0-releases</name>
+        <url>https://myartifactrory.jfrog.io/artifactory/demo_maven-libs-release</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0jbmzqtghlqr-artifactory-primary-0-snapshots</name>
+        <url>https://myartifactrory.jfrog.io/artifactory/demo_maven-libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
