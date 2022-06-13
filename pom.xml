@@ -142,15 +142,16 @@
     </pluginManagement>
   </build>
   <distributionManagement>
+<distributionManagement>
     <repository>
         <id>central</id>
         <name>a0jbmzqtghlqr-artifactory-primary-0-releases</name>
-        <url>https://myartifactrory.jfrog.io/artifactory/demo_maven-libs-release</url>
+        <url>https://myartifactrory.jfrog.io/artifactory/demo_maven-libs-release-local</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>a0jbmzqtghlqr-artifactory-primary-0-snapshots</name>
-        <url>https://myartifactrory.jfrog.io/artifactory/demo_maven-libs-snapshot</url>
+        <url>https://myartifactrory.jfrog.io/artifactory/demo_maven-libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
